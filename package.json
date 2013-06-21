@@ -1,38 +1,57 @@
 {
-    "name": "docpad-plugin-contactform",
-    "version": "0.0.2",
-    "description": "Simple contact form with postmark",
-    "homepage": "https://github.com/dospuntocero/docpad-plugin-contactform",
-    "keywords": [
-        "docpad",
-        "docpad-plugin",
-        "something",
-        "somethingelse"
-    ],
-    "author": "francisco arenas <fa@dospuntocero.cl> (dospuntocero.cl)",
-    "maintainers": [
-        "francisco arenas <fa@dospuntocero.cl> (github.com/dospuntocero)"
-    ],
-    "contributors": [
-        "francisco arenas <fa@dospuntocero.cl> (github.com/dospuntocero)"
-    ],
-    "bugs": {
-        "url": "https://github.com/dospuntocero/docpad-plugin-contactform/issues"
-    },
-    "repository" : {
-        "type": "git",
-        "url": "https://github.com/dospuntocero/docpad-plugin-contactform.git"
-    },
-    "engines" : {
-        "node": ">=0.8",
-        "docpad": ">=6"
-    },
-    "dependencies": {
-      "postmark": "0.1.8"
-    },
-    "devDependencies": {
-      "coffee-script": "~1.6.2"
-    },
-    
-    "main": "./src/contactform.plugin.coffee"
+  "name": "docpad-plugin-contactform",
+  "version": "1.1.0",
+  "description": "Simple contact form with postmark",
+  "homepage": "https://github.com/dospuntocero/docpad-plugin-contactform",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "something",
+    "somethingelse"
+  ],
+  "author": {
+    "name": "francisco arenas",
+    "email": "fa@dospuntocero.cl",
+    "url": "dospuntocero.cl"
+  },
+  "maintainers": [
+    {
+      "name": "francisco arenas",
+      "email": "fa@dospuntocero.cl",
+      "url": "github.com/dospuntocero"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "francisco arenas",
+      "email": "fa@dospuntocero.cl",
+      "url": "github.com/dospuntocero"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/dospuntocero/docpad-plugin-contactform/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dospuntocero/docpad-plugin-contactform.git"
+  },
+  "engines": {
+    "node": ">=0.8",
+    "docpad": ">=6"
+  },
+  "dependencies": {
+    "postmark": "0.1.8"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.2"
+  },
+  "main": "./src/contactform.plugin.coffee",
+  "readme": "# Contact form Plugin for DocPad\nAdds a simple contact form to [DocPad](https://docpad.org) using postmark\n\n\n## Install\n\n1. Install the Plugin\n\n  ```\n  npm install --save --force docpad-plugin-contactform\n  ```\n\n1. Output the contact form. You may have to change your document's extension (that you place this snippet inside) to `my-document.html.eco`.\n\n  ```\n  <%- @getCommentsBlock() %>\n  ```\n\n## Configure\n\nthis needs to be addded to your docpad.coffee configuration file\n\n    plugins:\n      contactform:\n          postmarkAPI: '<your API number here>'\n          toEmail: '<your email here>'\n    \n\n\n## History\nYou can discover the history inside the `History.md` file\n\n\n## License\nLicensed under the incredibly [permissive](http://en.wikipedia.org/wiki/Permissive_free_software_licence) [MIT License](http://creativecommons.org/licenses/MIT/)\n<br/>Copyright &copy; 2013 [dospuntocero Ltd](http://dospuntocero.cl)\n",
+  "readmeFilename": "README.md",
+  "_id": "docpad-plugin-contactform@1.0.0",
+  "_from": "docpad-plugin-contactform@1.0.0",
+  "dist": {
+    "shasum": "bc1e27442eb29a1038aaf2934fafc3b6474aa6ad"
+  },
+  "_resolved": "https://registry.npmjs.org/docpad-plugin-contactform/-/docpad-plugin-contactform-1.0.0.tgz"
 }
