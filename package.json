@@ -1,0 +1,31 @@
+{
+    "name": "docpad-plugin-contactform",
+    "version": "0.0.1",
+    "description": "Simple contact form with postmark",
+    "homepage": "https://github.com/dospuntocero/docpad-plugin-contactform",
+    "keywords": [
+        "docpad",
+        "docpad-plugin",
+        "something",
+        "somethingelse"
+    ],
+    "author": "francisco arenas <fa@dospuntocero.cl> (dospuntocero.cl)",
+    "maintainers": [
+        "francisco arenas <fa@dospuntocero.cl> (github.com/dospuntocero)"
+    ],
+    "contributors": [
+        "francisco arenas <fa@dospuntocero.cl> (github.com/dospuntocero)"
+    ],
+    "bugs": {
+        "url": "https://github.com/dospuntocero/docpad-plugin-contactform/issues"
+    },
+    "repository" : {
+        "type": "git",
+        "url": "https://github.com/dospuntocero/docpad-plugin-contactform.git"
+    },
+    "engines" : {
+        "node": ">=0.8",
+        "docpad": ">=6"
+    },
+    "main": "./src/contactform.plugin.coffee"
+}
