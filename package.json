@@ -1,6 +1,6 @@
 {
     "name": "docpad-plugin-contactform",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Simple contact form with postmark",
     "homepage": "https://github.com/dospuntocero/docpad-plugin-contactform",
     "keywords": [

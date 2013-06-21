@@ -18,7 +18,13 @@ Adds a simple contact form to [DocPad](https://docpad.org) using postmark
 
 ## Configure
 
-Some configuration options are available. Check out `src/contactform.plugin.coffee` for them.
+this needs to be addded to your docpad.coffee configuration file
+
+    plugins:
+      contactform:
+          postmarkAPI: '<your API number here>'
+          toEmail: '<your email here>'
+    
 
 
 ## History
