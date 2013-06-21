@@ -27,5 +27,12 @@
         "node": ">=0.8",
         "docpad": ">=6"
     },
+    "dependencies": {
+      "posstmark": "0.1.8"
+    },
+    "devDependencies": {
+      "coffee-script": "~1.6.2"
+    },
+    
     "main": "./src/contactform.plugin.coffee"
 }
