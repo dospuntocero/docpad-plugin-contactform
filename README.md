@@ -13,7 +13,7 @@ Adds a simple contact form to [DocPad](https://docpad.org) using postmark
 1. Output the contact form. You may have to change your document's extension (that you place this snippet inside) to `my-document.html.eco`.
 
   ```
-  <%- @getCommentsBlock() %>
+  <%- @getContactForm() %>
   ```
 
 ## Configure
